@@ -1,6 +1,6 @@
 package com.pauu.spring.beans.calculate;
 
-public interface ArimeticCalculator {
+public interface ArithmeticCalculator {
 	public int add(int i,int j);
 	public int sub(int i,int j);
 	public int mul(int i,int j);
