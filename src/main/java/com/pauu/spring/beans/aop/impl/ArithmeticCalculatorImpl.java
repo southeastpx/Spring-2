@@ -1,5 +1,8 @@
-package com.pauu.spring.beans.calculate;
+package com.pauu.spring.beans.aop.impl;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ArithmeticCalculatorImpl implements ArithmeticCalculator {
 
 	public int add(int i, int j) {

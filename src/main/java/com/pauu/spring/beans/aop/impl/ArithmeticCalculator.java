@@ -1,4 +1,4 @@
-package com.pauu.spring.beans.calculate;
+package com.pauu.spring.beans.aop.impl;
 
 public interface ArithmeticCalculator {
 	public int add(int i,int j);

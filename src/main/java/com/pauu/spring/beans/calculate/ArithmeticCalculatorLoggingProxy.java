@@ -7,6 +7,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
+import com.pauu.spring.beans.aop.impl.ArithmeticCalculator;
+
 public class ArithmeticCalculatorLoggingProxy {
 	//要代理的对象
 	private ArithmeticCalculator target;

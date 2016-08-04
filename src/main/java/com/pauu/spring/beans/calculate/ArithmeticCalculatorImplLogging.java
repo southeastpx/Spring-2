@@ -1,5 +1,7 @@
 package com.pauu.spring.beans.calculate;
 
+import com.pauu.spring.beans.aop.impl.ArithmeticCalculator;
+
 public class ArithmeticCalculatorImplLogging implements ArithmeticCalculator {
 
 	public int add(int i, int j) {
