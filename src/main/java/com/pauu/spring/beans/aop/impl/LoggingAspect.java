@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class LoggingAspect {
-	/*//声明该方法是一个前置通知：在目标方法之前执行
+	//声明该方法是一个前置通知：在目标方法之前执行
 	@Before("execution(public int com.pauu.spring.beans.aop.impl.ArithmeticCalculator.*(int, int))")
 	public void beforeMethod(JoinPoint joinPoint){
 		String methodName = joinPoint.getSignature().getName();
@@ -47,7 +47,6 @@ public class LoggingAspect {
 		String methodName = joinPoint.getSignature().getName();
 		System.out.println("The Method "+methodName+" occurs Exception:"+ex);
 	}
-	*/
 	//环绕通知需要接受ProceedingJoinPoint类型的参数
 	//环绕通知类似于动态代理的全过程：ProceedingJoinPoint类型的参数可以决定是否执行目标方法
 	//环绕通知必须有返回值，返回值即为目标方法的返回值
